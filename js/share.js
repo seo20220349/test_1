@@ -1,18 +1,12 @@
-const url = 'https://dev-dain.github.io/10-things-test';
-const title = '[이미지테스트] 나를 알아보는 10가지 질문 ';
-const hash = '%2310_things_test %233분이미지테스트 %23이미지테스트 ';
+const url = 'https://youtu.be/PWk03ieUsDs';
+const title = ' 나와 어울리는 디저트는?';
+const hash = '%디저트_테스트 %호서대학교 ';
 
-const fb = () => {
-  window.open('https://www.facebook.com/sharer/sharer.php?u='
-    + url + '&t=' + title + '' + hash,
-    'facebooksharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
-  return false;
-}
 const tw = () => {
   let name = document.querySelector('.result').innerHTML;
   switch (name) {
-    case '표범':
-    case '유니콘':
+    case '도넛':
+    case '크루와상':
       name += '이에요! ';
       break;
     default:
@@ -25,12 +19,6 @@ const tw = () => {
 }
 const nv = () => {
   window.open('http://share.naver.com/web/shareView.nhn?url='
-    + url + '&title=' + title,
-    'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
-  return false;
-}
-const band = () => {
-  window.open('https://band.us/plugin/share?url='
     + url + '&title=' + title,
     'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
   return false;

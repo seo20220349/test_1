@@ -1,4 +1,4 @@
-/* qna로 넘어갈 때 display: block; */
+
 #qna {
   display: none;
   opacity: 0;
@@ -15,7 +15,7 @@
 .status {
   height: 100%;
   border-radius: 20px;
-  background-color: rgba(191, 168, 255, 0.7);
+  background-color: #ff6a9e;
 }
 .box {
   margin: 0 auto;
@@ -33,6 +33,8 @@
   font-weight: bolder;
   animation: fade-in 0.5s ease-in-out 0.3s forwards;
   opacity: 0;
+  font-family: 'Gaegu', cursive;
+  color: rgb(134, 61, 61);
 }
 .answer {
   width: 100%;
@@ -45,12 +47,14 @@
   font-size: 1.1rem;
   font-weight: bolder;
   text-align: left;
+  font-family: 'Gaegu', cursive;
+  color: rgb(134, 61, 61);
   transition: background-color, color 0.2s linear;
   opacity: 0;
   cursor: pointer;
 }
 .a:hover, .a:focus {
-  background: #222;
+  background: #ff6a9e;
   color: #eee;
 }
 .a:last-child {
@@ -76,12 +80,16 @@
     margin-bottom: 50px;
     font-size: 32px;
     font-size: 2rem;
+    font-family: 'Gaegu', cursive;
+    color: rgb(134, 61, 61);
   }
   .answer {
     margin: 0 10%;
     width: 80%;
     font-size: 24px;
     font-size: 1.5rem;
+    font-family: 'Gaegu', cursive;
+    color: rgb(134, 61, 61);
   }
   .a {
     margin: 15px 0;
@@ -89,6 +97,8 @@
     width: 100%;
     font-size: 20.8px;
     font-size: 1.3rem;
+    font-family: 'Gaegu', cursive;
+    color: rgb(134, 61, 61);
   }
 }
 
@@ -100,6 +110,8 @@
     margin-bottom: 80px;
     font-size: 40px;
     font-size: 2.5rem;
+    font-family: 'Gaegu', cursive;
+    color: rgb(134, 61, 61);
   }
   .answer {
     font-size: 28.8px;
@@ -110,6 +122,8 @@
     width: 100%;
     font-size: 22.4px;
     font-size: 1.4rem;
+    font-family: 'Gaegu', cursive;
+    color: rgb(134, 61, 61);
   }
 }
 
@@ -123,11 +137,15 @@
     width: 100%;
     font-size: 40px;
     font-size: 2.5rem;
+    font-family: 'Gaegu', cursive;
+    color: rgb(134, 61, 61);
   }
   .answer {
     margin: 0;
     width: 100%;
     font-size: 28.8px;
     font-size: 1.8rem;
+    font-family: 'Gaegu', cursive;
+    color: rgb(134, 61, 61);
   }
 }

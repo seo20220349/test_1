@@ -90,8 +90,7 @@ const goResult = () => {
   const animal = document.querySelector('.result');
   const desc = document.querySelector('.res');
 
-  pTitle.innerHTML = u_name.value + ' 님의 점수는...';
-  res_point.innerHTML = point + '점';
+  pTitle.innerHTML = u_name.value + ' 님의 빵은...';
   pin.style.marginLeft = infoList[grade].mLeft;
   res_img.src = img_url;
   res_img.alt = infoList[grade].name;
@@ -227,7 +226,7 @@ const load = () => {
   u_name.addEventListener('blur', () => {
     try {
       if (u_name.value.length < 1) {
-        throw '이름을 입력하고 시작해 주세요.';
+        throw '이름을 적어주세요!';
       }
       msg.innerHTML = '';
     } catch (err) {
@@ -238,7 +237,7 @@ const load = () => {
   start_btn.addEventListener('click', () => {
     try {
       if (u_name.value.length < 1) {
-        throw '이름을 입력하고 시작해 주세요.';
+        throw '이름을 적어주세요!';
       }
       msg.innerHTML = '';
       start_btn.disabled = true;

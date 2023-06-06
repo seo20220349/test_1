@@ -1,11 +1,10 @@
-/* style */
+
 body {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eafffc+0,f0e8ff+100 */
-  background: #eafffc; /* Old browsers */
-  background: -moz-linear-gradient(left,  #eafffc 0%, #f0e8ff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  #eafffc 0%,#f0e8ff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  #eafffc 0%,#f0e8ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eafffc', endColorstr='#f0e8ff',GradientType=1 ); /* IE6-9 */
+  background: #ff6a9e; 
+  background: -moz-linear-gradient(left,  #ff6a9e 0%, #ffa1c5 100%); 
+  background: -webkit-linear-gradient(left,  #ff6a9eab 0%,#ffb7d3 100%);
+  background: linear-gradient(to right,  #ff6a9e 0%,#ffb5d1d5 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6a9e', endColorstr='#f0e8ff',GradientType=1 ); 
 }
 #wrap {
   position: relative;
@@ -24,7 +23,6 @@ body {
 }
 
 @media all and (min-width: 768px) {
-  /* qna에서 margin-top을 없애야 함 */
   #wrap {
     margin-top: 115px;
   }
@@ -37,7 +35,6 @@ body {
 }
 
 @media all and (min-width: 1024px) {
-  /* qna에서 margin-top을 없애야 함 */
   #wrap {
     margin-top: 150px;
   }
